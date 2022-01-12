@@ -1,0 +1,36 @@
+.section {
+  padding: 3rem 0;
+
+  &-heading {
+    font-size: 3.5rem;
+    @media screen and (max-width: 480px) {
+      font-size: 3rem;
+    }
+    font-weight: var(--font-weight-extra-bold);
+    text-align: center;
+    margin-bottom: 3rem;
+    @media screen and (max-width: 650px) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &-heading-small {
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+  }
+
+  &-text {
+    font-size: 1.25rem;
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+    color: var(--color-grey-1);
+  }
+}
+
+.gradient-text[data-color="blue"] {
+  background: var(--color-gradient-blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}

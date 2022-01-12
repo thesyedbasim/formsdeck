@@ -1,0 +1,16 @@
+.section-layout {
+  display: flex;
+  justify-content: center;
+}
+
+.section-container {
+  max-width: 67.5rem;
+
+  @media screen and (max-width: 900px) {
+    max-width: 85%;
+  }
+
+  @media screen and (max-width: 480px) {
+    max-width: 95%;
+  }
+}

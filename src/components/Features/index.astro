@@ -1,0 +1,43 @@
+---
+import FeatureItem from "./FeatureItem.astro";
+
+import StarIcon from "./icons/StarIcon.astro";
+import CashIcon from "./icons/CashIcon.astro";
+import KeyIcon from "./icons/KeyIcon.astro";
+---
+
+<style lang="scss">
+  @import "Feature.scss";
+</style>
+
+<section class="section section-layout">
+  <div class="section-container">
+    <h2 class="section-heading">Effortless way to forms</h2>
+    <div class="feature-container">
+      <FeatureItem
+        heading="Easy integration"
+        text="Create a new form and add the generated link and connect with Discord, that's it."
+      >
+        <StarIcon slot="icon" />
+      </FeatureItem>
+      <FeatureItem
+        heading="No Cost"
+        text="Traditional forms require servers which cost a lot. Forms Deck is a no-backend solution."
+      >
+        <CashIcon slot="icon" />
+      </FeatureItem>
+      <FeatureItem
+        heading="You own it"
+        text="You do no have to embed our form, neither is there our watermark. Fully customize your own forms."
+      >
+        <KeyIcon slot="icon" />
+      </FeatureItem>
+    </div>
+  </div>
+</section>
+
+<style lang="scss">
+  @import "Feature.scss";
+</style><style lang="scss">
+  @import "Feature.scss";
+</style>

@@ -1,0 +1,20 @@
+---
+export interface Props {
+  heading: string;
+  text: string;
+}
+
+const { heading, text } = Astro.props;
+---
+
+<article class="feature-item">
+  <div class="feature-item__icon-area"><slot name="icon" /></div>
+  <div class="feature-item__text-area">
+    <h3 class="feature-item__heading">{heading}</h3>
+    <p class="feature-item__text">{text}</p>
+  </div>
+</article>
+
+<style lang="scss">
+  @import "Feature.scss";
+</style>

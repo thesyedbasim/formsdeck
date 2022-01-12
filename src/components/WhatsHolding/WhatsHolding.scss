@@ -1,0 +1,28 @@
+.whats-holding {
+  &__text {
+    // add media query
+    width: 60ch;
+    @media screen and (max-width: 650px) {
+      width: 90%;
+    }
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__image-container {
+    width: 100%;
+    margin-top: 4rem;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  &__image {
+    margin-left: auto;
+    margin-right: auto;
+
+    $size: 25rem;
+    height: $size;
+    width: $size;
+  }
+}

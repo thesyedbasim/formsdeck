@@ -1,0 +1,30 @@
+---
+import Nav from "../layout/Nav/index.astro";
+import Hero from "../components/Hero/index.astro";
+import Features from "../components/Features/index.astro";
+import WhatsHolding from "../components/WhatsHolding/index.astro";
+import Footer from "../layout/Footer/index.astro";
+---
+
+<html lang="en">
+  <head>
+    <!--TODO: metadata, favicon-->
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Forms Deck</title>
+    <style lang="scss" global>
+      @import "../styles/global.scss";
+    </style>
+  </head>
+
+  <body>
+    <nav />
+    <Hero />
+    <main>
+      <Features />
+      <WhatsHolding />
+    </main>
+    <footer />
+  </body>
+</html>
