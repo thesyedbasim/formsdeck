@@ -2,11 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   astro: ^0.22.9
+  morphdom: ^2.6.1
   prettier: ^2.5.1
   prettier-plugin-astro: ^0.0.11
 
 devDependencies:
   astro: 0.22.10
+  morphdom: 2.6.1
   prettier: 2.5.1
   prettier-plugin-astro: 0.0.11
 

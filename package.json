@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "astro": "^0.22.9",
+    "morphdom": "^2.6.1",
     "prettier": "^2.5.1",
     "prettier-plugin-astro": "^0.0.11"
   }

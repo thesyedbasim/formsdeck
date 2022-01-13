@@ -24,11 +24,20 @@
 
     &__heading {
       font-size: 1.3rem;
+      @media screen and (max-width: 650px) {
+        font-size: 1.4rem;
+      }
       margin-bottom: 0.5rem;
     }
 
     &__text {
       font-size: 0.9rem;
+      @media screen and (max-width: 920px) {
+        font-size: 1.05rem;
+      }
+      @media screen and (max-width: 650px) {
+        font-size: 1.3rem;
+      }
       font-weight: var(--font-weight-light);
     }
 
