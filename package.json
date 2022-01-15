@@ -1,19 +1,21 @@
 {
-  "name": "formsdeck",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "format": "prettier --write --plugin-search-dir=. .",
-    "prettier:check": "prettier --check --plugin-search-dir=. ."
-  },
-  "devDependencies": {
-    "astro": "^0.22.9",
-    "morphdom": "^2.6.1",
-    "prettier": "^2.5.1",
-    "prettier-plugin-astro": "^0.0.11"
-  }
+	"name": "formsdeck",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"format": "prettier --write --plugin-search-dir=. .",
+		"prettier:check": "prettier --check --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@astrojs/renderer-svelte": "^0.3.1",
+		"astro": "^0.22.9",
+		"morphdom": "^2.6.1",
+		"prettier": "^2.5.1",
+		"prettier-plugin-astro": "^0.0.11",
+		"vite": "^2.7.12"
+	}
 }
