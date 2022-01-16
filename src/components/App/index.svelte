@@ -55,6 +55,13 @@
 				><CopyIcon /></button
 			>
 		</div>
+		<p id="docs-reference">
+			First time using Forms Deck? Read our docs <a
+				href="https://github.com/thesyedbasim/formsdeck/blob/main/README.md"
+				target="_blank"
+				rel="noreferrer noopener">here</a
+			>
+		</p>
 	</section>
 </section>
 
@@ -65,6 +72,11 @@
 	.app-link-section {
 		background-color: var(--color-container-bg);
 		padding: 4.5rem 0;
+	}
+
+	#docs-reference {
+		margin-top: 1rem;
+		text-align: center;
 	}
 
 	form {
