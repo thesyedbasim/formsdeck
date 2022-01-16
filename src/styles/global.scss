@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap');
-@import 'layout';
-@import 'typography';
+@use 'layout';
+@use 'typography';
 
 :root {
 	color-scheme: dark;
